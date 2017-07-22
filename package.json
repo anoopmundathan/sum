@@ -1,0 +1,30 @@
+{
+  "name": "sum",
+  "version": "1.0.0",
+  "description": "Sum two numbers",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "eslint index.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anoopmundathan/sum.git"
+  },
+  "keywords": [
+    "sum",
+    "add",
+    "numbers"
+  ],
+  "author": "Anoop Mundathan <anoop.mundathan@gmail.com> (http://anoopmundathan.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anoopmundathan/sum/issues"
+  },
+  "homepage": "https://github.com/anoopmundathan/sum#readme",
+  "devDependencies": {
+    "chai": "4.1.0",
+    "eslint": "4.3.0",
+    "mocha": "3.4.2"
+  }
+}
