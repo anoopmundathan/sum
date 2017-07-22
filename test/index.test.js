@@ -15,7 +15,7 @@ describe('Sum', () => {
 		expect(sum('a', 10)).to.equal(null);
 	});
 
-	it('Should return null if arguments arenot number', () => {
+	it('Should return null if arguments are not numbers', () => {
 		expect(sum('a', 'b')).to.equal(null);
 	});
 
@@ -24,7 +24,7 @@ describe('Sum', () => {
 	});
 
 	it('Should return sum if negative numbers are passed', () => {
-		expect(sum(1.5, 1.4)).to.equal(2.9);
+		expect(sum(-1, -5)).to.equal(-6);
 	});
 
 });
